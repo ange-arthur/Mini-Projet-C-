@@ -64,7 +64,7 @@ namespace GestionCommercial.Services
             this.ClientCollection.Sort();
         }
 
-        /*private List<Client> Ouvrir()
+        private List<Client> Ouvrir()
         {
             XmlSerializer xmlSerializer =
                new XmlSerializer(typeof(List<Client>));
@@ -83,7 +83,7 @@ namespace GestionCommercial.Services
             }
             else
                 return null;
-        }*/
+        }
 
         public void Ajouter(Client client)
         {

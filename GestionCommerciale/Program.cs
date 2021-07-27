@@ -9,7 +9,7 @@ namespace GestionCommercial
 {
     class Program
     {
-        var clientService = new ClientService();
+        static ClientService clientService = new ClientService();
 
         public void Menu()
         {
@@ -92,14 +92,14 @@ namespace GestionCommercial
             Console.Write("Prénom :");
             client.Prenom = Console.ReadLine();
 
-            Console.Write("Civilité (1:Homme,2:Famme) :");
+            Console.Write("Civilité (1:Homme,2:Femme) :");
             var CiviliteNombre = Console.ReadLine();
             client.Civilite = (Civilites)int.Parse(CiviliteNombre);
 
             Console.Write("Date de naissance :");
             client.DateNaissance = Convert.ToDateTime(Console.ReadLine());
 
-            Console.Write("Nationalité (1:Marociane,2:Française,3:Belge) :");
+            Console.Write("Nationalité (1:Burkinabe,2:Canadienne,3:Française) :");
             var NationaliteNombre = Console.ReadLine();
             client.Nationalite = (Nationalites)int.Parse(NationaliteNombre);
 
