@@ -31,7 +31,7 @@ namespace GestionCommercial.Services
                     Civilite = Civilites.Homme,
                     ComptePrepaye = new ComptePrepaye() { SoldePrepaye = 100 },
                     DateNaissance = new DateTime(2000, 1, 1),
-                    Email = "Madani.Ali@gmail.com",
+                    Email = "Guira.Ismael@gmail.com",
                     Nationalite = Nationalites.Burkinabe
                 });
 
@@ -42,7 +42,7 @@ namespace GestionCommercial.Services
                     Civilite = Civilites.Homme,
                     ComptePrepaye = new ComptePrepaye() { SoldePrepaye = 20 },
                     DateNaissance = new DateTime(2001, 1, 1),
-                    Email = "Chami.Moad@gmail.com",
+                    Email = "Killiam.Mbappe@gmail.com",
                     Nationalite = Nationalites.Française
                 });
 
@@ -50,9 +50,9 @@ namespace GestionCommercial.Services
                 {
                     Nom = "Berger",
                     Prenom = "Jacques",
-                    Civilite = Civilites.Femme,
+                    Civilite = Civilites.Homme,
                     DateNaissance = new DateTime(2001, 1, 1),
-                    Email = "Chami.Mouna@gmail.com",
+                    Email = "Berger.Jacques@gmail.com",
                     Nationalite = Nationalites.Canadienne
                 });
             }
