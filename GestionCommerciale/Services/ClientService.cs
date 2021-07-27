@@ -26,34 +26,34 @@ namespace GestionCommercial.Services
 
                 ClientCollection.Add(new Client()
                 {
-                    Nom = "Madani",
-                    Prenom = "Ali",
+                    Nom = "Guira",
+                    Prenom = "Ismael",
                     Civilite = Civilites.Homme,
                     ComptePrepaye = new ComptePrepaye() { SoldePrepaye = 100 },
                     DateNaissance = new DateTime(2000, 1, 1),
                     Email = "Madani.Ali@gmail.com",
-                    Nationalite = Nationalites.Marociane
+                    Nationalite = Nationalites.Burkinabe
                 });
 
                 ClientCollection.Add(new Client()
                 {
-                    Nom = "Chami",
-                    Prenom = "Moad",
+                    Nom = "Killiam",
+                    Prenom = "Mbappe",
                     Civilite = Civilites.Homme,
                     ComptePrepaye = new ComptePrepaye() { SoldePrepaye = 20 },
                     DateNaissance = new DateTime(2001, 1, 1),
                     Email = "Chami.Moad@gmail.com",
-                    Nationalite = Nationalites.Belge
+                    Nationalite = Nationalites.Française
                 });
 
                 ClientCollection.Add(new Client()
                 {
-                    Nom = "Madani",
-                    Prenom = "Mouna",
+                    Nom = "Berger",
+                    Prenom = "Jacques",
                     Civilite = Civilites.Femme,
                     DateNaissance = new DateTime(2001, 1, 1),
                     Email = "Chami.Mouna@gmail.com",
-                    Nationalite = Nationalites.Belge
+                    Nationalite = Nationalites.Canadienne
                 });
             }
            

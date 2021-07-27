@@ -6,8 +6,8 @@ namespace GestionCommercial.Entites.Enums
 {
     public enum Nationalites
     {
-        Marociane = 1,
-        Française = 2,
-        Belge = 3
+        Burkinabe = 1,
+        Canadienne = 2,
+        Française = 3
     }
 }
